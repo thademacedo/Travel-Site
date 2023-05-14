@@ -1,0 +1,30 @@
+/** HERO **/
+
+.hero-img {
+    background-image: url(../assets/Images/hero.png);
+    background-color: #FEFAF5;
+    background-position-x: right;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    
+    text-align: left;
+    padding-top: 15rem;
+    margin: 3rem;
+    color: #335576;
+}
+
+.hero-text__button {
+    background-color: #DB7A4E;
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: larger;
+}

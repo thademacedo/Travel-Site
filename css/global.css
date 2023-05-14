@@ -1,0 +1,111 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/** 
+NAVIGATION
+- The Navigation Bar must be fixed to the top of the page
+- The background color must be #FFFFFF
+- The site logo/wordmark color must be #335576
+- The currently active page must be underlined using the color #DB7A4E
+**/
+
+.main-nav {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main-nav__logo {
+    color: #335576;
+}
+
+ul.main-nav__list{
+    list-style-type: none;
+    display: flex;
+    margin-block: 3rem;
+    text-decoration: none;
+}
+
+ul li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+a.main-nav__link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: underline #DB7A4E;
+}
+
+#main-nav__home a:hover {
+    text-decoration: underline #DB7A4E;
+}
+
+#main-nav__hawaii a:hover {
+    text-decoration: underline #DB7A4E;
+}
+
+#main-nav__iceland a:hover {
+    text-decoration: underline #DB7A4E;
+}
+
+#main-nav__greece a:hover {
+    text-decoration: underline #DB7A4E;
+}
+
+/** 
+FOOTER 
+- The background color must be #FEFAF5
+- The footer titles and text must be the color #335576
+- The footer subtitles must be the color #DB7A4E
+**/
+
+p, .footer-bar__title2  {
+    color: #335576;
+}
+
+.footer-bar__title3 {
+    color: #DB7A4E;
+    font-size: smaller;
+}
+
+.footer-bar {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-bar__times {
+    display: inline-flex;
+}
+
+.footer-bar__days {
+    padding-right: 3rem;
+}
+
+.footer-bar__ig {
+    width: 2rem;
+    padding-right: 2rem;
+    margin: 1rem;
+}
+
+.footer-bar__fb {
+    width: 1rem;
+    padding-right: 2rem;
+    margin: 1rem;
+}
+
+.footer-bar__tt {
+    width: 2rem;
+    padding-right: 2rem;
+    margin: 1rem;
+}
