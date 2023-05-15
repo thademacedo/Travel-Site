@@ -1,0 +1,29 @@
+
+
+
+.hero-text {
+    display: flex;
+    padding-top: 5rem;
+    margin: 3rem;
+    color: #335576;
+}
+
+#card-itinerary {
+    display: flex;
+    align-self: flex-end;
+}
+
+.card-recommendations__card {
+    background: white;
+    width: 270px;
+    height: 300px;
+    margin: 20px;
+}
+
+.hero-title {
+    color: white;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+

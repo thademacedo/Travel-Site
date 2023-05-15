@@ -42,10 +42,6 @@ a.main-nav__link {
     color: black;
 }
 
-a:visited {
-    text-decoration: underline #DB7A4E;
-}
-
 #main-nav__home a:hover {
     text-decoration: underline #DB7A4E;
 }

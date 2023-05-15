@@ -1,4 +1,10 @@
-/** HERO **/
+/** 
+HERO
+- The hero background color must be #FEFAF5
+- The text content must be left aligned
+- The slogan color must be #335576
+- The ‘Get Started’ button background color must be #DB7A4E
+**/
 
 .hero-img {
     background-image: url(../assets/Images/hero.png);
@@ -14,7 +20,6 @@
 }
 
 .hero-text {
-    
     text-align: left;
     padding-top: 15rem;
     margin: 3rem;
@@ -28,3 +33,67 @@
     padding: 1rem 3rem;
     font-size: larger;
 }
+
+/** 
+RECOMMENDATIONS
+- The recommendations title must have the color of #335576
+- The destination name must be in the bottom right corner of the card
+- The border radius of the cards must be 5px
+- The border of the cards must be 1px solid black with an opacity of 20%
+- The box shadow of the cards must be:
+- Horizontal Offset: 0px
+- Vertical Offset: 4px
+- Blur: 4px
+- Color: Black, with an opacity of 20%
+**/
+
+#card-recommendations {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.card-recommendations__card {
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+}
+
+.card__pic1 {
+    background-image: url(../assets/Images/hawaii.jpg);
+    background-size: cover;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card__pic2 {
+    background-image: url(../assets/Images/iceland.jpg);
+    background-size: cover;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card__pic3 {
+    background-image: url(../assets/Images/greece.jpg);
+    background-size: cover;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#card__title {
+    text-decoration: none;
+    color: white;
+    text-align: end;
+}
+
+h2 {
+    text-decoration: none;
+}
+
+.rec {
+    color: #335576;
+}
+
+
+

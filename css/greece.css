@@ -1,0 +1,40 @@
+
+p {
+    color: black;
+    background-color: #FEFAF5;
+    font-size: larger;
+}
+
+h2 {
+    color: black;
+}
+
+.hero-img {
+    background-image: url(../assets/Images/greece.jpg);
+    background-color: #FEFAF5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4rem;
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text__title {
+    color: white;
+    padding-top: 10px;
+}
+
+.card__text{
+    color: black;
+    text-align: center;
+}
+
+#card__title {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
